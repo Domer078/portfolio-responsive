@@ -1,5 +1,5 @@
 :root {
-  --main-color: "#F9F7FE";
+  --main-bg-color: "#F9F7FE";
 }
 
 h1 {
@@ -14,4 +14,5 @@ p {
 }
 .hero {
   background-color: var(--main-color);
+  text-align: center;
 }
