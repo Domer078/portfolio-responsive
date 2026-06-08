@@ -1,3 +1,7 @@
+:root {
+  --main-color: "#F9F7FE";
+}
+
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -7,4 +11,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: italic;
+}
+.hero {
+  background-color: var(--main-color);
 }
