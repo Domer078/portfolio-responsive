@@ -1,35 +1,42 @@
 :root {
   --main-bg-color: "#F9F7FE";
-  --default-color-1: "#272142";
-  --default-color-2: "#000000";
   --main-button-color: "#6C63FF";
   --main-primary-font-family: "Poppins", sans-serif;
   --main-secondary-font-family: "Playfair Display", serif;
+}
+body {
+  font-family: var(--main-primary-font-family);
 }
 
 .hero {
   background-color: var(--main-color);
   text-align: center;
+  padding: 160px 20px;
 }
 .hero p {
   font-family: var(--main-primary-font-family);
   font-size: 36px;
   font: bold;
-  color: var(--default-color-1);
+  margin: 0;
+  color: "#272142";
 }
-.hero h1 {
+h1 {
   font-family: var(--main-secondary-font-family);
   font-size: 96px;
   font-weight: bold;
+  color: black;
 }
 .hero h2 {
   font-family: var(--main-primary-font-family);
   font-size: 24px;
   font-weight: normal;
+  line-height: 2px;
 }
-.btn-braiding {
+.btn-branding {
   background-color: var(--main-button-color);
   color: white;
   border-radius: 4px;
   padding: 18px 30px;
+  font-size: 18px;
+  line-height: 27px;
 }
