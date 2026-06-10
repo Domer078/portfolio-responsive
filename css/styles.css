@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #f9f7fe;
+  --branding-color: #6c63ff;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -29,8 +30,8 @@ body {
   margin: 0;
   color: #272142;
 }
-.btn-brand {
-  background: #6c63ff;
+.btn-branding {
+  background: var(--branding-color);
   color: white;
   border-radius: 4px;
   padding: 18px 30px;
