@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: black;
+  --main-bg-color: #f9f7fe;
   --main-button-color: #6c63ff;
   --main-primary-font-family: "Poppins", sans-serif;
   --main-secondary-font-family: "Playfair Display", serif;
@@ -26,7 +26,7 @@ p {
 }
 
 .hero {
-  background-color: var(--main-color);
+  background-color: var(--main-bg-color);
   text-align: center;
   padding: 160px 20px;
 }
