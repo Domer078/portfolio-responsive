@@ -39,7 +39,7 @@ p {
   padding: 160px 20px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .hero p {
@@ -93,6 +93,13 @@ p {
 }
 .project-outline {
   padding: 120px 60px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
 }
 @media (max-width: 900px) {
   h1 {
